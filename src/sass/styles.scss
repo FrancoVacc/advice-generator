@@ -1,0 +1,64 @@
+@import "variables";
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: $body-color;
+}
+
+.container{
+    width: 80%;
+    margin: 10% auto;
+    background-color: $bg-color;
+    padding: 1rem;
+    border-radius: .5rem;
+
+    p{
+        font-family: 'Manrope', sans-serif;
+    }
+
+    .adnumber{
+        font-size: .6rem;
+        margin: 1rem 0;
+        color: $green-color;
+        text-align: center;
+        letter-spacing: .2rem;
+    }
+
+    .advisor{
+        font-size: 1.2rem;
+        text-align: center;
+        color: $white-color;
+    }
+
+    img{
+        width: 100%;
+        margin: 1rem 0;
+    };
+
+    .btn-container{
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        left: 0;
+
+        button{
+            border-radius: 50%;
+            background-color: $green-color;
+            border-style: none;
+            width: 3rem;
+            height: 3rem;
+            img{
+                width: 1.2rem;
+                margin: 0;
+            }
+            
+            &:hover{
+                box-shadow: 0 0 1.5rem .2rem $green-color;
+                cursor: pointer;
+            }
+        }
+    }
+
+}
