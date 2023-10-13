@@ -53,5 +53,10 @@ body {
   box-shadow: 0 0 1.5rem 0.2rem rgb(83, 255, 171);
   cursor: pointer;
 }
+@media (min-width: 425px) {
+  .container {
+    width: 400px;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
